@@ -27,6 +27,6 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
 
     //Design library for Coordinator Layout and Toolbar
-
     implementation "com.android.support:design:27.1.1"
+
 }
