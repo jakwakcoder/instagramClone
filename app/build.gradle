@@ -29,4 +29,7 @@ dependencies {
     //Design library for Coordinator Layout and Toolbar
     implementation "com.android.support:design:27.1.1"
 
+    //Circle ImageView
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+
 }
