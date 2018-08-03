@@ -7,6 +7,7 @@ import android.support.annotation.NonNull;
 import android.support.design.internal.BottomNavigationItemView;
 import android.support.design.internal.BottomNavigationMenuView;
 import android.support.design.widget.BottomNavigationView;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
 
@@ -19,7 +20,7 @@ import jason.com.instagramclone.R;
 import jason.com.instagramclone.Search.SearchActivity;
 import jason.com.instagramclone.Share.ShareActivity;
 
-public class BottomNavigationViewHelper {
+public class BottomNavigationViewHelper extends AppCompatActivity {
 
     @SuppressLint("RestrictedApi")
     public static void removeShiftMode(BottomNavigationView view) {
